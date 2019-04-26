@@ -17,7 +17,7 @@ public class ItemDestroy : MonoBehaviour {
 	}
     void OnBecameInvisible()
     {
-        if (this.unitychan.transform.position.x > this.gameObject.transform.position.x)
+        if (unitychan.transform.position.z > this.gameObject.transform.position.z)
         {
             Destroy(this.gameObject);
         }
